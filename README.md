@@ -1,2 +1,2 @@
-# C_Programming
+# C++_Programming
 Welcome to my GitHub repository! Here, you'll find a collection of basic C++ programming code that serves as an excellent starting point for anyone looking to delve into the world of coding. Whether you're a beginner taking your first steps in programming or someone looking to refresh their C++ skills, these code snippets offer clear examples and explanations. Explore and enhance your understanding of fundamental programming concepts through this repository. Happy coding!
