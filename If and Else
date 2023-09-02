@@ -1,0 +1,92 @@
+//To find a number is even or odd
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+    cout<<"Enter a number\n:  ";
+    cin>>a;
+    if(a%2==0){
+        cout<<"Number is even";
+    }
+    else{
+        cout<<"number is odd";
+    }
+    return 0;   
+}
+
+
+//Find maximum and minimun among two numbers
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    cout<<"Enter two numbers:\n";
+    cin>>a>>b;
+    if(a>b){
+        cout<<a<<"is greater";
+    }
+    else{
+        cout<<b<<"is greater";
+    }
+    return 0;
+}
+
+
+//Program to find greatest among 3 numbers
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a,b,c;
+    cout<<"Enter any 3 numbers:\n";
+    cin>>a>>b>>c;
+    if(a>b){
+        if(a>c){
+            cout<<a<<"is the greatest number";
+        }
+        else{
+            cout<<c<<"is the greatest number";
+        }
+        }
+    else{
+        if(b>c){    
+            cout<<b<<"is the greatest number";
+        }
+        else{
+            cout<<c<<"is the greatest number";
+        }
+        
+    }
+    
+        return 0;
+}
+
+
+//Check property of Triangle
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a,b,c;
+    cout<<"Enter the sides of the triangle:\n";
+    cin>>a>>b>>c;
+
+     if(a==b && b==c){
+        cout<<"The triangle is equilateral";
+     }
+     else if(a==b || a==c || b==c){
+        cout<<"The triangle is isosceles triangle";
+     }
+     else{
+        cout<<"The triangle is scalene";
+     }
+     return 0;
+}
+
